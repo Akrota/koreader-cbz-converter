@@ -1,0 +1,26 @@
+TESTDATEIEN (selbst erzeugt, keine fremden Inhalte)
+
+Gleicher Inhalt in jedem Format: 12 Seiten, farbige Flaechen mit grosser Seitenzahl,
+Seite 5 und 6 im Querformat. Nach einer Umwandlung muessen die Seiten 1 bis 12 in dieser
+Reihenfolge herauskommen.
+
+Eingangsdateien (zum Umwandeln):
+  Testcomic_CBR.cbr    ist technisch ein ZIP mit der Endung .cbr (kein echtes RAR, es
+                       war kein RAR-Programm zum Erzeugen da). Fuer einen Test mit echtem RAR
+                       auf Windows eine eigene .cbr mit WinRAR erzeugen.
+  Testcomic_EPUB.epub  von Hand gebaut, 12 Seiten in Lesereihenfolge
+  Testcomic_PDF.pdf    12 Seiten, 150 ppi
+  Testcomic_MOBI.mobi  Mobipocket (aelteres Format)
+  Testcomic_AZW.azw    wie MOBI, andere Endung
+  Testcomic_AZW3.azw3  KF8 (neueres Kindle-Format)
+  Testcomic_CB7.cb7    Comic-Archiv als 7-Zip-Datei
+  Testcomic_CBT.cbt    Comic-Archiv als TAR-Datei (mit Zeitstempel 1970, wie in der Praxis oft)
+  Testcomic_KEPUB.kepub.epub   Kobo-EPUB-Variante (hier ein normales EPUB mit dieser Endung)
+
+Zum Vergleich:
+  Testcomic_Original_CBZ.cbz   so soll das Ergebnis aussehen
+  Ergebnis_aus_AZW3.cbz / Ergebnis_aus_AZW.cbz   bereits umgewandelt (Mac-App)
+
+HINWEIS: Gleichnamige CBZ werden uebersprungen. Alle Eingangsdateien haben
+verschiedene Namen, aber nach dem Umwandeln das Ergebnis (z. B. Testcomic_PDF.cbz) weglegen,
+bevor du dieselbe Datei erneut testest.
