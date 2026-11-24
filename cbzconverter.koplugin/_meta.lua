@@ -6,4 +6,5 @@ return {
     description = de
         and "Wandelt CBR, CB7, CBT, EPUB, MOBI/AZW und PDF direkt auf dem Gerät in CBZ um (Bilder bleiben außer bei PDF unverändert)."
         or "Converts CBR, CB7, CBT, EPUB, MOBI/AZW and PDF to CBZ right on the device (images stay unchanged except for PDF).",
+    version = "0.1.0",
 }
