@@ -2,9 +2,24 @@
 
 *Deutsch: [README.de.md](README.de.md)*
 
+<!-- byline -->
+A plugin by **Akrota and Claude**.
+
+<!-- lang-note -->
+*Works in **English and German**: menus and texts follow KOReader's language. A German description is at the bottom of this page.*
+
 A KOReader plugin that converts **CBR, CB7, CBT, PDF, EPUB (also KEPUB), MOBI, AZW and AZW3** to **CBZ** directly on your e-reader. No computer is needed. The CBZ is saved next to the original, and the original is kept.
 
 **Bonus:** the same converter is also available for [Windows and Mac](#bonus-windows-and-mac), for converting whole collections on a computer.
+
+## Screenshots
+
+*The screenshots show the English interface; in a German KOReader the texts are German.*
+
+<table>
+<tr><td align="center" valign="top" width="33%"><img src="docs/screenshots/menu.png" width="260" alt="Tools menu: CBZ converter"><br><sub>Tools menu: CBZ converter</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/file-dialog.png" width="260" alt="Long-press on a file: Convert to CBZ"><br><sub>Long-press on a file: Convert to CBZ</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/confirm-folder.png" width="260" alt="Confirmation for several files"><br><sub>Confirmation for several files</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><img src="docs/screenshots/progress.png" width="260" alt="Status line while converting"><br><sub>Status line while converting</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/summary.png" width="260" alt="Summary and the question about the original files"><br><sub>Summary and the question about the original files</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/how-it-works.png" width="260" alt="Help text"><br><sub>Help text</sub></td></tr>
+</table>
 
 ## Installation
 
@@ -63,6 +78,39 @@ The code was written entirely by **Claude**, an AI by Anthropic: the plugin and 
 
 There is no warranty and no guaranteed support. Bug reports are welcome as [issues](../../issues). Please attach `crash.log` from the KOReader folder.
 
+## More plugins by Akrota and Claude
+
+- [Comic Display](https://github.com/Akrota/koreader-comic-display): Refresh against ghosting, dark borders and a clock for comics
+- [Levels / Tonwerte](https://github.com/Akrota/koreader-comic-levels): Tone curve for comics
+- [Comic Panel Zoom](https://github.com/Akrota/koreader-comic-panel-zoom): Panel-by-panel view (fork of JorgeTheFox's plugin)
+- [Comic Dual Page](https://github.com/Akrota/koreader-comic-dual-page): Double pages with detection (fork of KORComic)
+- [Folder to series](https://github.com/Akrota/koreader-folder-to-series): Comic folders to series with volume numbers
+- [Drive Library](https://github.com/Akrota/koreader-drive-library): Google Drive as a cloud library
+- [Story Recall](https://github.com/Akrota/koreader-story-recall): Spoiler-free AI recap for books
+- [Guitar Tab Reader](https://github.com/Akrota/koreader-guitar-tab-reader): Guitar tabs and chords for e-ink
+- [Wi-Fi while charging](https://github.com/Akrota/koreader-wifi-while-charging): Keep Wi-Fi on while charging
+- [Zen page browser gesture](https://github.com/Akrota/koreader-zen-page-browser-gesture): Gesture for the ZenOS page browser
+
 ## License
 
 [MIT](LICENSE). 7-Zip and Poppler are separate programs with their own licenses.
+
+---
+
+## Deutsch (Kurzbeschreibung)
+
+Ein KOReader-Plugin, das **CBR, CB7, CBT, PDF, EPUB (auch KEPUB), MOBI, AZW und AZW3** direkt auf dem E-Reader in **CBZ** umwandelt. Ein Computer ist nicht nötig. Die CBZ landet neben dem Original, das Original bleibt erhalten.
+
+**Bonus:** Denselben Konverter gibt es auch für [Windows und Mac](#bonus-windows-und-mac), um ganze Sammlungen am Rechner umzuwandeln.
+
+
+### Benutzen
+
+- **Einzelne Datei:** Im Dateimanager eine Datei **lang drücken** und **„In CBZ umwandeln“** antippen.
+- **Über das Menü:** oberes Menü → Werkzeuge → **CBZ-Konverter** → „Datei wählen“ oder „Ordner wählen“. Die Ordner-Variante wandelt alles darin um, auch in Unterordnern.
+- **Abbrechen:** Eine Meldung zeigt den Fortschritt. Ein Tipp auf den Bildschirm fragt „Abbrechen / Weiter“. Beim Abbrechen wird die unfertige CBZ gelöscht, das Original bleibt unberührt. Der Abbruch greift nach dem laufenden Schritt, bei PDFs nach der aktuellen Seite.
+- **Originale löschen?** Am Ende fragt ein Fenster, ob die Originale der erfolgreich umgewandelten Dateien gelöscht oder behalten werden sollen. „Behalten“ ist die sichere Wahl. Gelöscht wird nur, wenn die neue CBZ vorhanden und nicht leer ist.
+- Existiert die CBZ schon, wird die Datei übersprungen. Am Ende steht eine Zusammenfassung (umgewandelt / übersprungen / Fehler).
+- **Sprache:** Deutsch oder Englisch, je nach KOReader-Sprache. Bei allen anderen Sprachen erscheint Englisch.
+
+Die ausführliche deutsche Anleitung steht in der [README.de.md](README.de.md).

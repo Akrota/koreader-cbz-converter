@@ -2,9 +2,24 @@
 
 *English: [README.md](README.md)*
 
+<!-- byline -->
+Ein Plugin von **Akrota und Claude**.
+
+<!-- lang-note -->
+*Funktioniert auf **Deutsch und Englisch**: Menüs und Texte richten sich nach der KOReader-Sprache.*
+
 Ein KOReader-Plugin, das **CBR, CB7, CBT, PDF, EPUB (auch KEPUB), MOBI, AZW und AZW3** direkt auf dem E-Reader in **CBZ** umwandelt. Ein Computer ist nicht nötig. Die CBZ landet neben dem Original, das Original bleibt erhalten.
 
 **Bonus:** Denselben Konverter gibt es auch für [Windows und Mac](#bonus-windows-und-mac), um ganze Sammlungen am Rechner umzuwandeln.
+
+## Bildschirmfotos
+
+*Die Bildschirmfotos zeigen die englische Oberfläche; in einem deutschen KOReader sind die Texte deutsch.*
+
+<table>
+<tr><td align="center" valign="top" width="33%"><img src="docs/screenshots/menu.png" width="260" alt="Werkzeuge-Menü: CBZ-Konverter"><br><sub>Werkzeuge-Menü: CBZ-Konverter</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/file-dialog.png" width="260" alt="Langes Drücken auf eine Datei: In CBZ umwandeln"><br><sub>Langes Drücken auf eine Datei: In CBZ umwandeln</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/confirm-folder.png" width="260" alt="Rückfrage bei mehreren Dateien"><br><sub>Rückfrage bei mehreren Dateien</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><img src="docs/screenshots/progress.png" width="260" alt="Statuszeile während der Umwandlung"><br><sub>Statuszeile während der Umwandlung</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/summary.png" width="260" alt="Zusammenfassung und Frage nach den Originaldateien"><br><sub>Zusammenfassung und Frage nach den Originaldateien</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/how-it-works.png" width="260" alt="Hilfetext"><br><sub>Hilfetext</sub></td></tr>
+</table>
 
 ## Installieren
 
@@ -62,6 +77,19 @@ In [`testfiles/`](testfiles) liegt ein selbst erstellter Test-Comic mit 12 Seite
 Der Code wurde vollständig von **Claude** geschrieben, einer KI von Anthropic: das Plugin und die Mac-Fassung von Claude am Mac, die Windows-Fassung, die Tests und die Korrekturen von Claude unter Windows. Der Inhaber dieses Projekts hatte die Idee, hat getestet und Rückmeldungen gegeben, aber keinen Code geschrieben.
 
 Es gibt keine Garantie und keinen festen Support. Fehlermeldungen sind als [Issue](../../issues) willkommen. Bitte die `crash.log` aus dem KOReader-Ordner anhängen.
+
+## Weitere Plugins von Akrota und Claude
+
+- [Comic Display](https://github.com/Akrota/koreader-comic-display): Refresh gegen Ghosting, dunkle Ränder und Uhr für Comics
+- [Levels / Tonwerte](https://github.com/Akrota/koreader-comic-levels): Tonwertkurve für Comics
+- [Comic Panel Zoom](https://github.com/Akrota/koreader-comic-panel-zoom): Panel-für-Panel-Ansicht (Fork von JorgeTheFox)
+- [Comic Dual Page](https://github.com/Akrota/koreader-comic-dual-page): Doppelseiten mit Erkennung (Fork von KORComic)
+- [Folder to series](https://github.com/Akrota/koreader-folder-to-series): Comic-Ordner zu Reihen mit Bandnummern
+- [Drive Library](https://github.com/Akrota/koreader-drive-library): Google Drive als Cloud-Bibliothek
+- [Story Recall](https://github.com/Akrota/koreader-story-recall): Spoilerfreier KI-Rückblick auf Bücher
+- [Guitar Tab Reader](https://github.com/Akrota/koreader-guitar-tab-reader): Gitarren-Tabs und Chords für E-Ink
+- [Wi-Fi while charging](https://github.com/Akrota/koreader-wifi-while-charging): WLAN anlassen, solange das Gerät lädt
+- [Zen page browser gesture](https://github.com/Akrota/koreader-zen-page-browser-gesture): Geste für den ZenOS-Seitenbrowser
 
 ## Lizenz
 
